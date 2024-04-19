@@ -2,61 +2,84 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        h1 {
-            color: rgb(255, 0, 0.6);
-        }
 
-        ul {
-            background-color: greenyellow;
-        }
-
-        p {
-            color: blueviolet;
-        }
-
-        p#yob {
-            color: purple;
-        }
-
-        ul {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
-
-        p#mwk{
-            font-family: "Roboto", sans-serif;
-        }
-        #blackgirl{
-            height: 200px;
-            width: 200px;
-        }
     </style>
 </head>
 
 <body>
-    <h1> Winnie Mukanzi</h1>
-        <image id="blackgirl" src=https://i.pinimg.com/236x/53/e4/a4/53e4a4e0ee2d3b720d5048dd4e1424b9.jpg></image>
-        <p id="yob">Date of Birth
-            1997</p>
-        <ul style="font-size: 24px;">
-            <li>The Technical University of Kenya</li>
-            <li>St. Agnes Girls High School</li>
+    <div class="card container">
+
+        <div id="red-box"></div>
+        <div>
+            <image id="blackgirl" src="https://i.pinimg.com/originals/aa/b2/87/aab2878ebc7bc28d399c212acabbfd5b.png">
+            </image>
+            <h1> Winnie Mukanzi
+                <button class="verify-now"> <span class="material-symbols-outlined">
+                        task_alt
+                    </span>verify now</button>
+            </h1>
+            <p id="mwk">I am an artist and a diplomat in the making</p>
+            <p>Nairobi county,Kenya <button id="contactinfo">contact info</button></p>
+            <p style="color: blue;">500+ connections</p>
+        </div>
+        <div class="info">
+            <span style="margin-left: 200px;" class="material-symbols-outlined">
+                edit
+            </span>
+            <p style="color: blue; text-decoration: underline;">Trainee Pathways</p>
+            <p>The Technical University of Kenya</p>
+
+        </div>
+        <div class="btns">
+            <button class="Open btn btn-primary">Open to</button>
+            <button class="Add profile section btn">Add profile section</button>
+            <button class="Enhance profile btn">Enhance profile</button>
+            <button class="more btn">more</button>
+        </div>
+        <div class="description card container">
+            <p style="font-weight: bold;">Open to work<span style="margin-left: 930px;"
+                    class="material-symbols-outlined">
+                    stylus
+                </span> </p>
+            <p>Transcriber,customer service agent,call centre agent, artist and translator.
+            </p>
+            <p style="color: blue;">show details</p>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item">The Technical University of Kenya</li>
+            <li class="list-group-item">St. Agnes Girls High School</li>
         </ul>
         <ul style="font-size: 20px;">
-            <li>The Technical University of Kenya</li>
-            <li>St. Agnes Girls High School</li>
-            <li>International Relations and Diplomacy</li>
+            <li class="list-group-item">The Technical University of Kenya</li>
+            <li class="list-group-item">St. Agnes Girls High School</li>
+            <li class="list-group-item">International Relations and Diplomacy</li>
         </ul>
-        <p id="mwk">I am a diplomat in the making</p>
-        <div style="font-size: 24px;"></div>
+
+        <div class="container"></div>
+    </div>
 </body>
 
 </html>

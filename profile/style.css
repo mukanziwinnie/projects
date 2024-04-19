@@ -1,0 +1,87 @@
+h1 {
+    color: black;
+}
+
+ul {
+    background-color: plum;
+}
+
+/*p#yob {
+    color: blue;
+}*/
+
+ul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p#mwk {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+#blackgirl {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    z-index: 4;
+    border-radius: 50cm;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+
+#red-box {
+    background-image: url("https://images.unsplash.com/photo-1615869442320-fd02a129c77c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8a2V5Ym9hcmRzfGVufDB8fDB8fHww");
+    position: absolute;
+    width: 1120px;
+    height: 200px;
+    z-index: 3;
+}
+
+.verify-now {
+    border: 2px dotted blue;
+    border-radius: 40px;
+    font-size: 20px;
+    color: blue;
+    display: inline-flex;
+    background-color: white;
+    
+}
+
+.btn {
+    border-radius: 20px;
+    border-color: blue;
+    color: blue;
+    margin-top: 60px;
+}
+
+p#mk {
+    font-size: large;
+    color: black;
+    background: aqua;
+    background-size: 20cm;
+}
+#contactinfo{
+    border: none;
+    color: blue;
+}
+.info { 
+    margin-left: 80%;
+    margin-top: -200px;
+    border: 1px;
+
+
+}
+.description { 
+    background-color: rgb(152, 177, 230);
+    margin-top: 20px;
+}
+.profile {
+    color: blue;
+    border: 1px solid black;
+}
+.more {
+    color: black;
+}
+.open {
+    color: white;
+}
